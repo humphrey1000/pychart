@@ -1,6 +1,8 @@
-class chart:
-	def __init__(self):
-		print("Hello World")
+import sys
+def parser(instruction):
+	"""Parsing requires regular expression knowledge"""
 
 
-f = chart()
+	if __name__ == '__main__':
+		instruct = sys.argv[1]
+		return parser(instruct)

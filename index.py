@@ -1,9 +1,13 @@
 import sys
-import re
-def parser(instruction):
-	#Parsing requires regular expression knowledge
-	
+def parser():
+	""" Parsing data
+ 	"""
 
+
+
+
+
+	
 	if __name__ == '__main__':
-		instruct = sys.argv[1]
-		return parser(instruct)
+	    parser(sys.argv[1])
+		

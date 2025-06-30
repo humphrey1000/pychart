@@ -1,11 +1,10 @@
 import sys
 def parser():
-	""" Parsing data
+	""" \
+            Parsing data
+ 	    Data types: variables, functions, data structures, operators
  	"""
-
-
-
-
+	
 
 	
 	if __name__ == '__main__':

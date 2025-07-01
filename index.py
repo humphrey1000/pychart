@@ -2,11 +2,12 @@ import sys
 def parser():
 	""" \
             Parsing data
- 	    Data types: variables, functions, data structures, operators
+ 	    Data types: variables, functions, data structures, operators, classes
  	"""
-	
+		
 
 	
 	if __name__ == '__main__':
-	    parser(sys.argv[1])
+		prose = sys.argv[1]
+	    	parser(prose)
 		

@@ -1,12 +1,17 @@
-import sys
+import re
 
 
-def parser(prose):
+def parser(regexp, prose):
     """ \
             Parsing data
         Data types: variables, functions, data structures, operators, classes
     """
+    text = re.findall(regexp, prose)
+    return text
 
-    if __name__ == '__main__':
-        prose = sys.argv[1]
-        parser(prose)
+    well = "hello", "howdy means how do ye, anyway hello"
+    parser(*well)
+
+    # if __name__ == '__main__':
+    #     text = sys.argv[1], sys.argv[2]
+    #     parser(*text)

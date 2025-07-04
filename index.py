@@ -7,10 +7,10 @@ def parser(regexp, prose):
         Data types: variables, functions, data structures, operators, classes
     """
     text = re.findall(regexp, prose)
-    return text
+    print(text)
 
-    well = "hello", "howdy means how do ye, anyway hello"
-    parser(*well)
+well = "hello", "howdy means how do ye, anyway hello"
+parser(*well)
 
     # if __name__ == '__main__':
     #     text = sys.argv[1], sys.argv[2]

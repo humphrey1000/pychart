@@ -14,5 +14,5 @@ def parser(regexp, prose):
 #     text = sys.argv[1], sys.argv[2]
 #     parser(*text)
 
-well = "hello", "howdy means how do ye, anyway hello"
+well = r'hello', "howdy means how do ye, anyway hello"
 parser(*well)

@@ -1,4 +1,5 @@
 import re
+import sys
 
 
 def parser(regexp, prose):
@@ -10,9 +11,9 @@ def parser(regexp, prose):
     print(text)
 
 
-# if __name__ == '__main__':
-#     text = sys.argv[1], sys.argv[2]
-#     parser(*text)
+if __name__ == '__main__':
+    are = sys.argv[1], sys.argv[2]
+    parser(*are)
 
-well = r'hello', "howdy means how do ye, anyway hello"
-parser(*well)
+# well = r'hello', "howdy means how do ye, anyway hello"
+# parser(*well)

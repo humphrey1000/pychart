@@ -3,7 +3,7 @@ Here are some engaging challenges to sharpen your skills with regular expression
 1. **Validate Email Addresses:** Create a regular expression to check whether a string is a valid email address. Test it with different cases like missing "@" or ".com".
     re.fullmatch(r"(\w+)?(@{1})(\w+)?(.{1})?(\w+)?","techsupport@palbinatravel.com")
 2. **Extract Dates:** Write a regular expression to identify dates in various formats, e.g., "24/03/2025", "March 24, 2025", etc., and extract them from a given text.
-    re.fullmatch(r"(\d+(-|/+)(\w|\d)+(-|/+)\d+)","10-july-2025")
+    re.findall(r"\w+,\w+ \d+,\d+","Thursday,july 10,2025")
 3. **Count Word Occurrences:** Design a regex pattern to find how many times a specific word appears in a block of text.
 
 4. **Find Phone Numbers:** Create a regex to extract phone numbers from a text. Account for different formats, such as "+254 712-345-678", "0712345678", etc.

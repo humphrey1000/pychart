@@ -5,7 +5,7 @@ Here are some engaging challenges to sharpen your skills with regular expression
 2. **Extract Dates:** Write a regular expression to identify dates in various formats, e.g., "24/03/2025", "March 24, 2025", etc., and extract them from a given text.
     re.findall(r"[\d{1,2}/\d{1,2}/\d{2,4})|(\w,\w \d,\d)]+", "12/07/2025")
 3. **Count Word Occurrences:** Design a regex pattern to find how many times a specific word appears in a block of text.
-
+    re.findall(r"[t]","quotient and remainder time") print(len(arg))
 4. **Find Phone Numbers:** Create a regex to extract phone numbers from a text. Account for different formats, such as "+254 712-345-678", "0712345678", etc.
 
 5. **Detect Duplicates:** Write a regex pattern to identify duplicate words in a sentence (e.g., "This is is a test").

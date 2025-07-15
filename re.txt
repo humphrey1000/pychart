@@ -7,7 +7,7 @@ Here are some engaging challenges to sharpen your skills with regular expression
 3. **Count Word Occurrences:** Design a regex pattern to find how many times a specific word appears in a block of text.
     re.findall(r"dog+","the quick brown fox jumped over the lazy dog") print(len(arg))
 4. **Find Phone Numbers:** Create a regex to extract phone numbers from a text. Account for different formats, such as "+254 712-345-678", "0712345678", etc.
-
+    re.findall(r"\d{10}", "my number is 0712345678")
 5. **Detect Duplicates:** Write a regex pattern to identify duplicate words in a sentence (e.g., "This is is a test").
 
 6. **Replace HTML Tags:** Create a regex to strip HTML tags or replace them with placeholders in a given HTML content string.
